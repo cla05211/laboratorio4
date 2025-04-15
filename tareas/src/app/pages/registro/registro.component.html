@@ -1,0 +1,14 @@
+<div class="main">
+    <input type="checkbox" id="chk" aria-hidden="true">
+  
+    <div class="signup">
+      <form [formGroup]="formularioRegistro">
+        <label for="chk" aria-hidden="true">Iniciar Sesion</label>
+  
+        <input type="email" formControlName="correo" placeholder="Correo Electrónico" />
+        <input type="password" formControlName="contraseña" placeholder="Contraseña" />
+
+        <button type="button">Registrar</button>
+      </form>
+    </div>
+  </div>
